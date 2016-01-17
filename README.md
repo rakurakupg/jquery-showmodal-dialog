@@ -5,11 +5,11 @@ But some legacy project deeply depends on ShowModalDialog function and can not e
 
 This sample can convert from the code using ShowModalDialog live below,
 
- showModalDialog(url, param, 'dialogWidth: 100...');
+    showModalDialog(url, param, 'dialogWidth: 100...');
 
 to like below.
 
- dlg.showModalDialog(url, param, {dialogWidth: 100, dialogHeight: 100}, callback);
+    dlg.showModalDialog(url, param, {dialogWidth: 100, dialogHeight: 100}, callback);
  
 
 
